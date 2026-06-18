@@ -16,8 +16,8 @@ elif media >= 3 and media <7:
         if nota_recuperacao >= 5:
             print("Aluno(a) aprovado pela recuperação")
         else:
-            print("Ãluno não obteve nota suficiente para ser aprovado após a recuperação")
+            print("Aluno(a) não obteve nota suficiente para ser aprovado após a recuperação")
     else:
-        print("Sem chance de nova recuperação!")
+        print("Aluno(a) ainda não fez a recuperação!")
 else:
     print(f"Aluno(a) reprovado(a) com média {media: .2f}")
